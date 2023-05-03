@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HTML Attributes and Links</title>
+	</head>
+
+	<body>
+		<!-- id attribute assigns a unique name identifier to an element -->
+		<h2 id = "top">HTML Attributes</h2>
+		<!-- The align attributes changes the alignment of the paragraph element. The "center" value centers the paragraph using the align attribute. -->
+		<p align="center"><em>Modifiers of element behaviors.</em></p>
+		<h2>HTML Images</h2>
+		<!-- &lt; and &gt; are called HTML entities. They are used to include special characters into text. -->
+		<p align='right'><em>An image can be using &lt;img/&gt; tag along with its <strong></strong> attribute.</em></p>
+		<!-- <img> tag -->
+		<img src="https://place-puppy.com/300x300"/>
+		<p><code>&lt;img src="https://place-puppy.com/300x300"/&gt;</code></p>
+
+
+		<img src="./images/zuittlogo.png"/>
+		<p>
+			<code>&lt;img src="./images/zuittlogo.png"/&gt;</code>
+		</p>
+
+		<p>Valid image extensions are the following:</p>
+		<!-- The type attribute changes the numbered points of the ol element. The default type is the integer numbers/numerical. Other values for the type Attribute are the following:
+			-A
+			-a
+			-i
+			-I
+		-->
+		<!-- The reveresed attribute reverse the order. -->
+		<ol type='A' reversed>
+			<li>png</li>
+			<li>jpg</li>
+			<li>gif</li>
+			<li>svg</li>
+			<li>webp</li>
+		</ol>
+
+		<p>Take a look at w3schools attribute references <a href="https://www.w3schools.com/tags/ref_attributes.asp" target='_blank'>here</a>.</p>
+
+		<h2>HTML Links</h2>
+
+		<h4>Absolute Link</h4>
+		<!-- <a> tag - creates a hyperlink element that redirects to another domain -->
+				<!-- href attribute means "hypertext reference" which is used to create a link to a different page -->
+		<a href="https://zuitt.co" target="_blank">I'm a hyperlink</a>
+
+		<h4>Relative Link</h4>
+		<!-- Redirects to the link.html file -->
+		<p>Go to <a href="./link.html">link.html</a> page.</p>
+		<!-- Navigates to the HTML element to the top id element -->
+		<p>Go to <a href="#top">top</a></p>
+
+		<p>Go to <a href="./images/index.html">Images page</a>.</p>
+	</body>
+</html>
