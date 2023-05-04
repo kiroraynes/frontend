@@ -7,98 +7,146 @@
 </head>
 <body>
 
-	<h2>HTML Entities and Tables</h2>
+	<header>
+		<h1>HTML Tables and Forms</h1>
+	</header>
+	<main>
+		<section>
+			<h2>HTML Entities and Tables</h2>
 
-	<p>
-		<em>Reserved characters in HTML (e.g. &lt; or &gt; characters that can mix up with HTML code).</em>
-	</p>
-	<!-- <table> tag - defines an HTML table that allows us to represent data in tabular. -->
-	<table border ="1">
-		<!-- <thead> tag - is used to group the header content in an HTML table -->
-			<thead>
-				<!-- tr tag is used to denote the table row -->
-				<tr>
-					<!-- th tag defines table header column/s -->
-					<th colspan = "2">Entity</th>
-					<th rowspan = "2">Description</th>
-				</tr>
-				<tr>
-					<th>Symbol</th>
-					<th>String</th>
-				</tr>
-			</thead>
-			<tbody>
-				<!-- add table row on your body, it is the same with adding table row with thead -->
-				<tr>
-					<!-- <td> tag defines a table data element -->
-					<td>&lt;</td>
-					<td>lt</td>
-					<td>less than</td>
-				</tr>
-				<tr>
-					<td>&gt;</td>
-					<td>gt</td>
-					<td>greater than</td>
-				</tr>
-				<tr>
-					<td>&#8369;</td>
-					<td>#8369</td>
-					<td>peso sign</td>
-				</tr>
-				<tr>
-					<td>&amp;</td>
-					<td>amp</td>
-					<td>ampersand</td>
-				</tr>
-				<tr>
-					<td>&quot;</td>
-					<td>quot</td>
-					<td>double quotation mark
-				</td>
-				<tr>
-					<td>&apos;</td>
-					<td>apos</td>
-					<td>single quotation mark (Apostrophe)</td>
-				</tr>
-				<tr>
-					<td>&ntilde;</td>
-					<td>ntilde</td>
-					<td>Lower Tilde</td>
-				</tr>
-				<tr>
-					<td>&Ntilde;</td>
-					<td>Ntilde</td>
-					<td>Upper Tilde</td>
-				</tr>
-			</tbody>
-			<!-- <tfoot> tag - is used to group footer content in an HTML table -->
-			<tfoot>	
-				 <tr>
-				 	<th colspan="3">List of HTML Entities</th>
-				 </tr>
-			</tfoot>
-	</table>
+			<p>
+				<em>Reserved characters in HTML (e.g. &lt; or &gt; characters that can mix up with HTML code).</em>
+			</p>
+			<!-- <table> tag - defines an HTML table that allows us to represent data in tabular. -->
+			<table border ="1">
+				<!-- <thead> tag - is used to group the header content in an HTML table -->
+					<thead>
+						<!-- tr tag is used to denote the table row -->
+						<tr>
+							<!-- th tag defines table header column/s -->
+							<th colspan = "2">Entity</th>
+							<th rowspan = "2">Description</th>
+						</tr>
+						<tr>
+							<th>Symbol</th>
+							<th>String</th>
+						</tr>
+					</thead>
+					<tbody>
+						<!-- add table row on your body, it is the same with adding table row with thead -->
+						<tr>
+							<!-- <td> tag defines a table data element -->
+							<td>&lt;</td>
+							<td>lt</td>
+							<td>less than</td>
+						</tr>
+						<tr>
+							<td>&gt;</td>
+							<td>gt</td>
+							<td>greater than</td>
+						</tr>
+						<tr>
+							<td>&#8369;</td>
+							<td>#8369</td>
+							<td>peso sign</td>
+						</tr>
+						<tr>
+							<td>&amp;</td>
+							<td>amp</td>
+							<td>ampersand</td>
+						</tr>
+						<tr>
+							<td>&quot;</td>
+							<td>quot</td>
+							<td>double quotation mark
+						</td>
+						<tr>
+							<td>&apos;</td>
+							<td>apos</td>
+							<td>single quotation mark (Apostrophe)</td>
+						</tr>
+						<tr>
+							<td>&ntilde;</td>
+							<td>ntilde</td>
+							<td>Lower Tilde</td>
+						</tr>
+						<tr>
+							<td>&Ntilde;</td>
+							<td>Ntilde</td>
+							<td>Upper Tilde</td>
+						</tr>
+					</tbody>
+					<!-- <tfoot> tag - is used to group footer content in an HTML table -->
+					<tfoot>	
+						<tr>
+							<th colspan="3">List of HTML Entities</th>
+						</tr>
+					</tfoot>
+			</table>
+		</section>
 
-	<hr>
+		<hr>
 
-	<h2>HTML Forms</h2>
-	<p><em>Input elements that make up a form.</em></p>
-	<!-- The form starts here -->
-	<!-- <form> tag creates an HTML form to capture the user input -->
-		<!-- action attribute - is used to define where the infromation will be sent upon submission -->
-		<!-- method attribute will declare what method will be done to the data collected -->
-	<form>
-		<!-- label tag creates text element that will serve as the label for an input field -->
-			<!-- for attribute is used with the id attribute in an input element. This allows the users to select the input field when they are clicked. -->
-		<label for = "full_name">Full Name:</label><br>
-		<input type="text" name="full_name" id="full_name"/><br>
+		<section>
+			<h2>HTML Forms</h2>
+			<p><em>Input elements that make up a form.</em></p>
+			<!-- The form starts here -->
+			<!-- <form> tag creates an HTML form to capture the user input -->
+				<!-- action attribute - is used to define where the infromation will be sent upon submission -->
+				<!-- method attribute will declare what method will be done to the data collected -->
+			<form>
+				<!-- label tag creates text element that will serve as the label for an input field -->
+					<!-- for attribute is used with the id attribute in an input element. This allows the users to select the input field when they are clicked. -->
+				<label for = "full_name">Full Name:</label><br>
+				<input type="text" name="full_name" id="full_name"/><br>
+
+				<label for="birthdate">Birth Date:</label><br>
+				<input type='date' name="birthdate" id="birthdate" required/><br>
+
+				<label for="age">Age:</label> <br>
+				<input type="number" name="age" id="age"><br>
+				
+				<!-- Creates a dropdown menu for gender menu -->
+				<label for="gender">Gender:</label> <br>
+				<!-- select tag creates a dropdown menu based on the nested options -->
+				<select name="gender" id="gender">
+					<!-- creates an option for the dropdown menu created by a select tag -->
+					<option value="1">Male</option>
+					<option value="2">Female</option>
+				</select><br>
+
+				<!-- create textarea (larger text input) for the notes (can create rows and columns ) -->
+				<label for="notes">Notes:</label> <br>
+				<textarea name="notes" id="notes" rows="5"></textarea> <br>
+
+				<!-- Radio buttons for only one selection (best practice) -->
+
+				<label for="newUser">New User:</label> <br>
+				<input type="radio" name="newUser" value="yes" id="usertype-1">
+				<label for="usertype-1">Yes</label><br>
+				<input type="radio" name="newUser" value="no" id="usertype-2">
+				<label for="usertype-2">No</label><br>
+
+				<!-- Checkboxes -->
+				<label for="">Role:</label><br>
+
+				<input type="checkbox" name="role1" value="developer" id="role1">
+				<label for="role1">Developer</label><br>
+
+				<input type="checkbox" name="role2" value="student" id="role2">
+				<label for="role2">Student</label><br>
+
+				<input type="checkbox" name="role3" value="msanager" id="role3">
+				<label for="role3">Manager</label><br>
 
 
+				<!-- <button> tag - creates a button that will trigger the form submission (by default the type of button is submit) -->
+				<button type = "submit"> Submit</button>
 
-		<!-- <button> tag - creates a button that will trigger the form submission (by default the type of button is submit) -->
-		<button type = "submit"> Submit</button>
-
-		<button type="reset">Reset</button>
-	</form>
+				<button type="reset">Reset</button>
+			</form>
+		</section>
+		
+	</main>
 </body>
 </html>
