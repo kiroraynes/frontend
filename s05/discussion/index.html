@@ -1,1 +1,77 @@
-index.html
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Tables and Forms</title>
+</head>
+<body>
+
+	<h2>HTML Entities and Tables</h2>
+
+	<p>
+		<em>Reserved characters in HTML (e.g. &lt; or &gt; characters that can mix up with HTML code).</em>
+	</p>
+	<!-- <table> tag - defines an HTML table that allows us to represent data in tabular. -->
+	<table border ="1">
+		<!-- <thead> tag - is used to group the header content in an HTML table -->
+			<thead>
+				<!-- tr tag is used to denote the table row -->
+				<tr>
+					<!-- th tag defines table header column/s -->
+					<th colspan = "2">Entity</th>
+					<th rowspan = "2">Description</th>
+				</tr>
+				<tr>
+					<th>Symbol</th>
+					<th>String</th>
+				</tr>
+			</thead>
+			<tbody>
+				<!-- add table row on your body, it is the same with adding table row with thead -->
+				<tr>
+					<!-- <td> tag defines a table data element -->
+					<td>&lt;</td>
+					<td>lt</td>
+					<td>less than</td>
+				</tr>
+				<tr>
+					<td>&gt;</td>
+					<td>gt</td>
+					<td>greater than</td>
+				</tr>
+				<tr>
+					<td>&#8369;</td>
+					<td>#8369</td>
+					<td>peso sign</td>
+				</tr>
+				<tr>
+					<td>&amp;</td>
+					<td>amp</td>
+					<td>ampersand</td>
+				</tr>
+				<tr>
+					<td>&quot;</td>
+					<td>quot</td>
+					<td>double quotation mark
+				</td>
+				<tr>
+					<td>&apos;</td>
+					<td>apos</td>
+					<td>single quotation mark (Apostrophe)</td>
+				</tr>
+				<tr>
+					<td>&ntilde;</td>
+					<td>ntilde</td>
+					<td>Lower Tilde</td>
+				</tr>
+				<tr>
+					<td>&Ntilde;</td>
+					<td>Ntilde</td>
+					<td>Upper Tilde</td>
+				</tr>
+			</tbody>
+	</table>
+
+</body>
+</html>
