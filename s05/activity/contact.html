@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body leftmargin="auto" rightmargin="auto">
+        <header>
+            <h2>Contact Form</h2>
+        </header>
+        <main>
+            <form>
+                <!-- textbox for first name -->
+                <label for="firstName">First Name:</label><br>
+                <input type="text" name="firstName" id="firstName" required><br>
+
+                <!-- textbox for last name -->
+                <label for="lastName">Last Name:</label><br>
+                <input type="text" name="lastName" id="lastName" required><br>
+
+                <!-- textbox for email -->
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email" required><br>
+
+                <!-- textbox for contact number -->
+                <label for="contactNumber">Contact Number:</label><br>
+                <input type="number" name="contactNumber" id="contactNumber" required><br>
+
+                <!-- options for service type -->
+                <label for="serviceType">Service Type:</label> <br>
+                <select style="font-style:italic" serviceType" required>
+                    <option selected="selected" style="font-style:italic">Please Select</option>
+                    <option value="front_end_programming">Front End Programming</option>
+                    <option value="back_end_programming">Back End Programming</option>
+                    <option value="full_stack_programming">Full Stack Programming</option>
+                </select><br>
+
+                <label>Preferred Contact:</label> <br>
+                <input type="checkbox" name="contact1" id="contact1" value="1">
+                <label for="contact1">Email</label><br>
+                <input type="checkbox" name="contact2" id="contact2" value="2">
+                <label for="contact2">Phone Package</label><br>
+                <input type="radio" name="phonepack" id="phonepack1" value="1">
+                <label for="phonepack1">Basic</label> <br>
+                <input type="radio" name="phonepack" id="phonepack2" value="2">
+                <label for="phonepack2">Premium</label> <br> 
+                <br>
+
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" rows="5" required></textarea> <br>
+
+                <button type="submit">Send Inquiry</button><br>
+                <button type="reset">Reset</button>
+            </form>
+        </main>
+    </body>
+</html>
