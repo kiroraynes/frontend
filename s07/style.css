@@ -1,0 +1,102 @@
+* {
+    font-family:'Courier New', monospace;
+    font-size: 20px;
+}
+
+h1 {
+    color:yellow;
+}
+
+#zuitt-motto {
+    letter-spacing: 5px;
+}
+
+.offering-item {
+    text-transform: uppercase;
+}
+
+[required] {
+    border-width: 2px;
+    border-style: solid;
+    border-color: navy;
+    width: 90%;
+}
+
+/* h3 {
+    letter-spacing: 20px; !important;
+} */
+/* Adjacent Sibling selector */
+h3 + img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+
+}
+
+#bootcamp-learning-list li{
+    color: #6AB8B8;
+}
+
+/* General sibling selector */
+
+h2 ~ a {
+    /* text dec changes*/
+    text-decoration: none;
+}
+
+form > label {
+    color: rgb(86,199,219)
+}
+
+body  {
+    background-color: #BD5555;
+}
+
+section {
+    height: 100vh;
+    text-align:center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: white;
+}
+
+/* pseudo-class */
+a:hover {
+    background-color: #42edaf;
+}
+
+div {
+    display: inline;
+    /* float property changes the horizontal alignment of an element to float either to the left or right of its container */
+    float: right;
+}
+
+ol {
+    list-style-type: none;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    height: 185px;
+    width:25vw;
+    left:37.25%;
+
+}
+
+button {
+    background-color:#cf0002;
+    color:white;
+    border-radius: 20px;
+    border: 0;
+
+}
