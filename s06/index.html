@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dev Skills and Dev Tools Activity</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            .slideshow {
+                width: 85vmin;
+                position: absolute;
+                transform: translate(-50%,-50%);
+                top: 50%;
+                left: 50%;
+                overflow: hidden;
+                border: 10px solid #ffffff;
+                border-radius: 8px;
+                box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
+            }
+            .images {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                display:flex;
+                width: 100%;
+                animation-name: slide 12s infinite;
+		    }
+            @keyframes slide{
+                0%{
+                    transform: translateX(0);
+                }
+                25%{
+                    transform: translateX(0);
+                }
+                30%{
+                    transform: translateX(-100%);
+                }
+                50%{
+                    transform: translateX(-100%);
+                }
+                55%{
+                    transform: translateX(-200%);
+                }
+                75%{
+                    transform: translateX(-200%);
+                }
+                80%{
+                    transform: translateX(-300%);
+                }
+                100%{
+                    transform: translateX(-300%);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- scenario A answer we use the attribute maxlength to cap the input of the user up to a certain number of char-->
+        <!-- https://www.w3schools.com/tags/att_input_maxlength.asp -->
+        <form>
+            <label for="field">Field:</label>
+            <input type="text" name="field" id="field" maxlength="15"><br>
+            <button type="submit">submit</button>
+        </form><br>
+        
+        <!-- Scenario B we use the alt attribute of img tag to denote alternative text when the image is not available -->
+        <!-- https://www.w3schools.com/TAGS/att_img_alt.asp -->
+        <img src="source.jpg" alt="Here is the alternative text">
+
+        <!-- Scenario C we use the code tag to display a certain as code. We can also use the class attr to determine what language it is -->
+        <!-- https://www.w3schools.com/TAGs/tag_code.asp -->
+        <p>The syntax is like this:</p><br>
+        <p><code class="html">
+            &lt;head&gt;
+            &lt;meta charset="utf-8"&gt;
+            &lt;/head&gt;
+        </code></p><br><br>
+
+        <!-- Scenario D We can use div class to set a container for the slideshow. I called it slideshow. With the images, i named the class "images" and applied styling through CSS found under the head section. We then apply styling such as positioning in the center. To enable the autoscroll, we use the CSS function "@keyframe" while targeting the animation placed under the style for images.-->
+        <!-- source: https://dev.to/shantanu_jana/automatic-image-slideshow-in-html-css-26jl -->
+        <div class="slideshow">
+            <div class="images">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80">
+                <img src="https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80">
+                <img src="https://wallpapers.com/images/featured/293chzhp3r67ag4a.jpg">
+            </div>
+        </div>
+        <br>
+    </body>
+</html>
