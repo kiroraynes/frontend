@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+}
+
+header {
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+    align-items: right;
+    border-bottom: 1px solid gray;
+}
+
+header .nav, header .nav-logo {
+    margin:0.5rem;
+    display: inline;
+}
+
+#intro {
+    padding-left:10%;
+    padding-right: 10%;
+    padding-top:2rem;
+    padding-bottom:3rem;
+}
+
+#intro h1, #intro p {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#intro div {
+    text-align: center;
+}
+
+#intro button {
+    color: white;
+    font-weight: bold;
+    background-color: #c2195b;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+/* Styles for section headers */
+
+.header {
+    text-align: center;
+}
+
+#succeed-info {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+#succeed-info > div > h3 {
+    margin-bottom: 1rem;
+}
+
+#succeed-info div{
+    display: inline;
+    width: 33.33%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+footer {
+    display: block;
+    padding: 0.7 rem;
+    margin: 0.5rem;
+}
+
+footer span {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#pre-footer {
+    background-color: #002540;
+    color: white;
+}
+
+#pre-footer div {
+    display: inline-block;
+    width: 20%;
+    margin: 0.5rem;
+}
+
+#pre-footer div > *{
+    margin: 0.3rem;
+}

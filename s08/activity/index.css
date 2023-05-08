@@ -23,7 +23,7 @@ nav {
 
 .right-nav {
     position: absolute;
-    top: 0;
+    top: 8px;
     right: 0;
 }
 
@@ -53,6 +53,7 @@ li {
     background-size: 100%;
     opacity: 50%;
     height: 40vh;
+    object-position: right;
 }
 
 
@@ -62,7 +63,6 @@ li {
     width: 32vw;
     font-size: 2em;
     color: white;
-    object-position: right;
 }
 
 .subtitle {
