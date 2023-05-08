@@ -1,0 +1,64 @@
+/*===============CSS Reset===============*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans';
+    margin-left: 5%;
+    margin-right: 5% 
+}
+
+nav {
+    position:sticky;
+    top: 0px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    
+    right: 0px;
+}
+
+li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.tuitt-button {
+    background-color: #c2195b;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.front-bg {
+    background-image: url(https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg);
+    width:100%;
+    background-position: center center;
+    background-size: 100%;
+    height: 30vh;
+}
+.container {
+    position: relative;
+    text-align: right;
+    display: block;
+}
+
+
+
+.title {
+    font-family: 'Zilla Slab';
+    width: 44vw;
+    font-size: 2em;
+}
+
+.subtitle {
+    right:0px;
+    width: 25vw;
+    font-size: 0.8em;
+    font-weight: light;
+}
