@@ -16,49 +16,59 @@ nav {
     top: 0px;
 }
 
-ul li {
-    list-style-type: none;
+.right-nav .nav, ul .nav-logo {
+    margin: 0.5rem;
     display: inline;
-    
-    right: 0px;
 }
 
+.right-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+ul {
+    list-style-type: none;
+}
 li {
     padding-left: 20px;
-    position: relative;
 }
 
-.tuitt-button {
+.tuitt-button, .apply-button {
     background-color: #c2195b;
     padding: 4px;
     border-radius: 5px;
+    border: none;
     font-weight: bold;
     color: white;
 }
+
 .front-bg {
+    background-color:black;
+}
+.container {
     background-image: url(https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg);
     width:100%;
     background-position: center center;
     background-size: 100%;
-    height: 30vh;
+    opacity: 50%;
+    height: 40vh;
 }
-.container {
-    position: relative;
-    text-align: right;
-    display: block;
-}
-
 
 
 .title {
     font-family: 'Zilla Slab';
-    width: 44vw;
+    text-align: right;
+    width: 32vw;
     font-size: 2em;
+    color: white;
+    object-position: right;
 }
 
 .subtitle {
-    right:0px;
+    text-align: right;
     width: 25vw;
     font-size: 0.8em;
-    font-weight: light;
+    font-weight: lighter;
+    color: white;
 }
