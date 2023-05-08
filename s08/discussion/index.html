@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS Styling and Position Properties</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <h2>CSS Common Styling</h2>
+        <div id="div-1">This is a div.</div>
+        <span id="span-1">This is a span.</span>
+        <img src="https://place-puppy.com/450x450" alt="">
+        <span id="span-2">This is another span</span>
+        <div id="div-2">This is another div</div>
+
+        <h3>Notes in block, inline and inline-block</h3>
+
+        <p id="p-1">Block Takes up the whole width by default</p>
+
+        <p id="p-2">Width 60</p>
+        <p id="p-3">width 40</p>
+        <p>Even if there is enough space, block elements do not sit next to each other unless if they are floated.</p>
+        <p>Inline elements are things like bold and Italics. You cannot control the height and width of these elements.</p>
+        <p>Inline-block can sit on the same line and combines block and inline properties</p>
+        <div class="sample">width = 30</div>
+        <div class="sample">width = 30</div>
+        <div class="sample">width = 30</div>
+
+        <hr>
+         <h3>Float</h3>
+         <p> The Float property is used for positioning and formatting e.g. let an image float to the text in a container
+         </p>
+         <p>
+            <img class="img-float" src="https://place-puppy.com/450x450" alt="">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis neque accusamus nisi, architecto quisquam eaque! Praesentium, dolorum hic necessitatibus, dolor beatae animi voluptatem minus facilis veritatis sequi commodi nobis possimus!
+         </p>
+        <hr>
+         <h3>CSS Units</h3>
+
+         <h4>px vs %</h4>
+         <div class="box fifty-percent">50%</div>
+         <div class="box one-hundred-px">100px</div>
+         <div class="box fifty-vw">50vw</div>
+         <div class="box twenty-five-vh">25vh</div>
+         <div>16px</div>
+         <div class="one-rem">1rem</div>
+         <div class="one-em">1em</div>
+         <div class="two-rem">2rem</div>
+         <div class="two-em">2em</div>
+         <div class="two-hundred-percent">200%</div>
+
+         <hr>
+
+         <div class="parent">
+            <div class="box fifty-percent">50%</div>
+            <div class="box one-hundred-px">100px</div>
+            <div class="box fifty-vw">50vw</div>
+            <div class="box twenty-five-vh">25vh</div>
+
+            <div class="one-rem">1rem</div>
+            <div class="one-em">1em</div>
+            <div class="two-rem">2rem</div>
+            <div class="two-em">2em</div>
+            <div class="two-hundred-percent">200%</div>
+         </div>
+
+        <hr>
+        <section class="background">
+            <div class="container-bg">
+                <h3 class="bg-title">CSS Background Properties</h3>
+            </div>
+        </section>
+        
+        <hr>
+        <div class="parent-element">
+            Parent element
+            <div class="child-one">
+                I'm the child one element.
+            </div>
+            <div class="child-two">
+                All eyes on me. I'm the child two element.
+            </div>
+            <div class="child-three">
+                I'm the child three element
+            </div>
+        </div>
+        
+        <hr>
+
+        <h2>Z-Index Example</h2>
+
+        <p>An element with greater stack order is always above an element with a lower stack order</p>
+
+        <div class="container">
+            <div class="black-box">Black Box (Z-index: 1)</div>
+            <div class="gray-box">Gray Box (Z-Index :3)</div>
+            <div class="green-box">Green Box (z-Index : 2)</div>
+        </div>
+
+    </body>
+</html>

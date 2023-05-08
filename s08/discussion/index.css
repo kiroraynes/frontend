@@ -1,0 +1,191 @@
+#div-1 {
+    background-color:green;
+    display: block;
+}
+
+#span-1 {
+    background-color:purple;
+    display:inline;
+    /*This is will not take effect because we can't use width and eheighth in span*/
+    width: 200px;
+    height: 200px;
+}
+
+#span-2 {
+    background-color:red;
+    display: block;
+}
+
+#div-2 {
+    background-color: hotpink;
+}
+
+#img {
+    width:250px;
+    height: 250px;
+}
+
+#p-1 {
+    background-color: #699917;
+}
+
+#p-2 {
+    background-color: rgb(232, 58, 104);
+    width: 60%;
+}
+
+#p-3 {
+    background-color: yellow;
+    width: 40%;
+}
+
+.sample {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Float property */
+
+.img-float {
+    width: 250px;
+    height: 250px;
+    float: inherit;
+}
+
+.box {
+
+    background-color: red;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.fifty-percent {
+    width: 50%;
+}
+
+.one-hundred-px {
+    width: 100px;
+}
+
+.parent {
+    width: 135px;
+    border: 2px solid navy;
+}
+
+.fifty-vw {
+    width: 50vw;
+}
+
+.twenty-five-vh {
+    height: 25vh;
+}
+
+/* VW is useful for creating full-width elements (100%) that fill up viewport's width */
+/* vw is useful */
+
+.one-rem {
+    font-size: 1rem;
+}
+.one-em {
+    font-size: 1em,;
+}
+.two-rem {
+    font-size: 2rem;
+}
+
+.two-em {
+    font-size: 2em;
+}
+
+.two-hundred-percent {
+    font-size: 200%;
+}
+
+.parent {
+    width: 135px;
+    border: 2px solid navy;
+    font-size: 30px;
+}
+
+.background {
+    min-height: 100vh;
+    /* background-color: gray; */
+    background-repeat: no-repeat;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/43/1003/707/anime-your-name-kimi-no-na-wa-mitsuha-miyamizu-wallpaper-preview.jpg);
+    background-position: center top;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+.bg-title {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    margin: 0;
+    line-height: 35rem;
+}
+.container-bg {
+    background-color: rgbx(0,0,0,0.5);
+    min-height: 100vh;
+}
+
+.parent-element {
+    background-color: skyblue;
+    padding:10px;
+    position: relative;
+    height: 100vh;
+}
+
+.child-one {
+    background-color: gray;
+    padding:10px;
+}
+
+.child-two {
+    background-color: yellow;
+    padding: 10px;
+    position: sticky;
+    top: 10px;
+
+}
+
+.child-three {
+    background-color: blue;
+    padding: 10px;
+}
+
+html {
+    height: 800vh;
+}
+
+.container{
+    position:relative;
+}
+.black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin:30px;
+}
+.gray-box {
+    position: absolute;
+    z-index: 3;
+    background: lightgray;
+    height: 60px;
+    width: 70%;
+    left: 50px;
+    top: 50px;
+}
+
+.green-box {
+    position: absolute;
+    z-index: 2;
+    background: lightgreen;
+    width: 35%;
+    left: 270px;
+    top: 15px;
+    height: 100px;
+}
