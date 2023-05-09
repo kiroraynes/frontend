@@ -1,53 +1,79 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="./index.css">  
-        <style>
-            #orange {
-                color:orange
-            }
-        </style>
+        <title>CSS Box Model and Flexbox Layouting</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./index.css">
+        
     </head>
     <body>
-        <p style="color:red">Apply inline styling here.</p>
-        <p id="orange">Apply internal styling here.</p>
-        <p id="yellow">Apply external styling here.</p>
-        <h1>CSS Introduction Activity</h1>
-        <h2>The following are things you will learn in this bootcamp:</h2>
-        
-        <section class="languages-container">
-            <h3>Languages to be learned</h3>
-            <ol id="languages">
-                <li class="language">Hypertext Markup Language</li>
-                <li class="language">Cascading Style Sheet</li>
-                <li class="language">JavaScript</li>
-            </ol>
+        <header>
+            <div class="nav-logo">
+                <img src="https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/zuittlogo.png">
+            </div>
+            <div class="nav">Home</div>
+            <div class="nav">Web Dev Program</div>
+            <div class="nav">Companies</div>
+            <div class="nav">FAQ</div>
+            <div class="nav">Blog</div>
+        </header>
+        <h1 class="header">What is Zuitt?</h1>
+        <section id="intro">
+            <p>Zuitt is the #1 Philippine-based startup offering web development coding bootcamps in Manila. Thanks to our rapid growth, we can now help over 1,000 Filipinos learn web development with our every year. We also equip them with the job hunting skills needed to get hired as Software Engineers.Our secret to success is our belief that Filipinos can do much more with affordable and quality education. If you invest in your education, you can be in the best position to achieve the life you’ve always wanted for yourself and your family.</p>
+            <div>
+                <button>Apply Now</button>
+            </div>
         </section>
-        <section class="tools-container">
-            <h3>Tools to be used</h3>
-            <ol id="tools">
-                <li value="1">Sublime Text</li>
-                <li value="2">Postman</li>
-                <li value="3">Heroku</li>
-                <li value="4">GitLab</li>
-            </ol>
+        <h1 class="header">Succeed With Zuitt</h1>
+        <section id="succeed-info">
+            <div>
+                <h3>Beginner Friendly</h3>
+                <p>Experienced instructors will guide you from the ultimate beginner’s lesson to your final dynamic website, via a live online instruction with passionate peers and one-on-one Q&A.</p>
+            </div>
+            <div>
+                <h3>Study Now, Pay Later</h3>
+                <p>We’re confident in your ability to get your dream career after the training. You don’t have to pay for the program while you’re still learning.</p>
+            </div>
+            <div>
+                <h3>Just 4/6 Months</h3>
+                <p>Join our 4 Month Day Class for completely immersed and dedicated learning, or our 6 Month Night Class so you can learn even while working.</p>
+            </div>
         </section>
-        
-        <section class="others-container">
-            <h3 id="others">Other things to be learned</h3>
-            <img src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png" alt="JS logo">
-            <ol id="others-list">
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>React.js</li>
-                <li>MongoDB</li>
-            </ol>
+        <section id="pre-footer">
+            <div>
+                <h3>About Us</h3>
+                <p>History</p>
+                <p>Mission & Vision</p>
+                <p>Founders</p>
+                <p>Branches</p>
+            </div>
+            <div>
+                <h3>Careers</h3>
+                <p>Junior Developer</p>
+                <p>Marketing Associate</p>
+                <p>Legal Staff</p>
+                <p>Junior Accountant</p>
+            </div>
+            <div>
+                <h3>Follow Us</h3>
+                <p>Facebook</p>
+                <p>LinkedIn</p>
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p>(02) 8 282 9520</p>
+                <p>0917 166 8714 (Globe), 0932 868 8713 (Smart)</p>
+                <p>helpdesk@zuitt.co</p>
+            </div>
         </section>
-        <p>Web development is a continuous process. Never stop learning and always look for ways to innovate.</p>
+        <footer>
+            <span>Terms of Service</span>
+            <span>|</span>
+            <span>Privacy Policy</span>
+            <span>|</span>
+            <span>&copy; 2017-2019 Zuitt. All Rights Reserved</span>
+        </footer>
     </body>
 </html>

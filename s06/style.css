@@ -1,50 +1,102 @@
-.slideshow {
-    width: 85vmin;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    overflow: hidden;
-    border: 10px solid #ffffff;
-    border-radius: 8px;
-    box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
-    box-sizing:border-box;
+* {
+    font-family:'Courier New', monospace;
+    font-size: 20px;
 }
-.images {
-    position: absolute;
-    /* top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
-    width: 100%;
-    display: flex;
-    margin: auto;
-    animation-name: slide 12s infinite;
-    box-sizing:border-box;
+
+h1 {
+    color:yellow;
 }
-@keyframes slide{
-    0%{
-        transform: translateX(0);
-    }
-    25%{
-        transform: translateX(0);
-    }
-    30%{
-        transform: translateX(-100%);
-    }
-    50%{
-        transform: translateX(-100%);
-    }
-    55%{
-        transform: translateX(-200%);
-    }
-    75%{
-        transform: translateX(-200%);
-    }
-    80%{
-        transform: translateX(-300%);
-    }
-    100%{
-        transform: translateX(-300%);
-    }
+
+#zuitt-motto {
+    letter-spacing: 5px;
+}
+
+.offering-item {
+    text-transform: uppercase;
+}
+
+[required] {
+    border-width: 2px;
+    border-style: solid;
+    border-color: navy;
+    width: 90%;
+}
+
+/* h3 {
+    letter-spacing: 20px; !important;
+} */
+/* Adjacent Sibling selector */
+h3 + img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+
+}
+
+#bootcamp-learning-list li{
+    color: #6AB8B8;
+}
+
+/* General sibling selector */
+
+h2 ~ a {
+    /* text dec changes*/
+    text-decoration: none;
+}
+
+form > label {
+    color: rgb(86,199,219)
+}
+
+body  {
+    background-color: #BD5555;
+}
+
+section {
+    height: 100vh;
+    text-align:center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: white;
+}
+
+/* pseudo-class */
+a:hover {
+    background-color: #42edaf;
+}
+
+div {
+    display: inline;
+    /* float property changes the horizontal alignment of an element to float either to the left or right of its container */
+    float: right;
+}
+
+ol {
+    list-style-type: none;
+}
+
+form {
+    text-align: center;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    height: 185px;
+    width:25vw;
+    left:37.25%;
+
+}
+
+button {
+    background-color:#cf0002;
+    color:white;
+    border-radius: 20px;
+    border: 0;
+
 }

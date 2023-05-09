@@ -3,92 +3,57 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Dev Skills and Dev Tools Activity</title>
+        <title>CSS Introduction</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="./style.css">
+
+        <!-- internal styling -->
         <!-- <style>
-            .slideshow {
-                width: 85vmin;
-                position: absolute;
-                transform: translate(-50%,-50%);
-                top: 50%;
-                left: 50%;
-                overflow: hidden;
-                border: 10px solid #ffffff;
-                border-radius: 8px;
-                box-shadow: 10px 25px 30px rgba(0,0,0,0.3);
-            }
-            .images {
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                margin: auto;
-                display:flex;
-                width: 100%;
-                animation-name: slide 12s infinite;
-		    }
-            @keyframes slide{
-                0%{
-                    transform: translateX(0);
-                }
-                25%{
-                    transform: translateX(0);
-                }
-                30%{
-                    transform: translateX(-100%);
-                }
-                50%{
-                    transform: translateX(-100%);
-                }
-                55%{
-                    transform: translateX(-200%);
-                }
-                75%{
-                    transform: translateX(-200%);
-                }
-                80%{
-                    transform: translateX(-300%);
-                }
-                100%{
-                    transform: translateX(-300%);
-                }
-            }
+            h1 {color:blue;}
         </style> -->
     </head>
     <body>
-        <!-- scenario A answer we use the attribute maxlength to cap the input of the user up to a certain number of char-->
-        <!-- https://www.w3schools.com/tags/att_input_maxlength.asp -->
-        <form>
-            <label for="field">Field:</label>
-            <input type="text" name="field" id="field" maxlength="15"><br>
-            <button type="submit">submit</button>
-        </form><br>
-        
-        <!-- Scenario B we use the alt attribute of img tag to denote alternative text when the image is not available -->
-        <!-- https://www.w3schools.com/TAGS/att_img_alt.asp -->
-        <img src="source.jpg" alt="Here is the alternative text" style="word-break:break-word;">
-
-        <!-- Scenario C we use the code tag to display a certain as code. We can also use the class attr to determine what language it is -->
-        <!-- https://www.w3schools.com/TAGs/tag_code.asp -->
-        <p>The syntax is like this:</p><br>
-        <p><code class="html">
-            &lt;head&gt;
-            &lt;meta charset="utf-8"&gt;
-            &lt;/head&gt;
-        </code></p><br><br>
-
-        <!-- Scenario D We can use div class to set a container for the slideshow. I called it slideshow. With the images, i named the class "images" and applied styling through CSS found under the head section. We then apply styling such as positioning in the center. To enable the autoscroll, we use the CSS function "@keyframe" while targeting the animation placed under the style for images.-->
-        <!-- source: https://dev.to/shantanu_jana/automatic-image-slideshow-in-html-css-26jl -->
-        <div class="slideshow">
-            <div class="images">
-                <img src="./images/image1.jpg">
-                <img src="./images/images2.jpg">
-                <img src="./images/images3.jpg">
+        <nav id="top">
+            <a href="">Zuitt</a>
+            <div>
+                <a href="#landing">Landing</a>
+                <a href="#register">Register</a>
             </div>
-        </div>
-        <br>
+        </nav>
+
+        <!-- <h1 style="color:red;">Hello World</h1> -->
+        <section id="landing">
+            <h1>Hello World</h1>
+
+            <h2>Welcome to Zuitt</h2>
+            <h3 id="zuitt-motto">Opportunities for everyone, everywhere!</h3>
+            <img src="https://place-puppy.com/450x450">
+
+            <ol id="bootcamp-learning-list">
+                <li class="offering-item">Day class</li>
+                <li class="offering-item">Night classes</li>
+                <li class="offering-item">Intro to coding events</li>
+            </ol>
+            <a href="#top">Back to top</a>
+        </section>
+
+        <section id="register">
+            <h2>Register</h2>
+            <form>
+                <label for="first-name">First Name:</label>
+                <input type="text" name="first-name" required id="first-name">
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" name="last-name" required id="last-name">
+
+                <label for="email">Email:</label>
+                <input type="email" required name="email" id="email">
+
+                <button type="submit">Apply Now</button>
+            </form>
+            <a href="#top">Back to top</a>
+        </section>
+
     </body>
 </html>

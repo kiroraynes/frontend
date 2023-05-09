@@ -1,0 +1,44 @@
+#yellow {
+    color: yellow;
+}
+
+* {
+    font-family:'Calibri';
+    font-size: 12px;
+}
+
+h1 {
+    font-size:35px;
+}
+
+h2 {
+    text-transform:uppercase;
+}
+
+.language {
+    background-color:yellowgreen
+}
+
+[value] {
+    border-width: 1px;
+    border-color:navy;
+    border-style:solid;
+}
+
+img + ol {
+    list-style-type: none;
+}
+
+.others-container img {
+    max-width: 5%;
+    height:auto;
+    border-radius: 150px;
+}
+
+section ~ p {
+    text-align:center;
+}
+
+#others-list > li {
+    letter-spacing: 4px;
+}
