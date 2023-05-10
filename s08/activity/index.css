@@ -6,69 +6,22 @@
 }
 
 html {
-    font-family: 'Open Sans';
-    margin-left: 5%;
-    margin-right: 5% 
+    font-family: 'Open Sans'
 }
 
-nav {
-    position:sticky;
-    top: 0px;
-}
-
-.right-nav .nav, ul .nav-logo {
-    margin: 0.5rem;
+ul > li {
     display: inline;
 }
-
-.right-nav {
-    position: absolute;
-    top: 8px;
-    right: 0;
-}
-
-ul {
-    list-style-type: none;
-}
-li {
-    padding-left: 20px;
-}
-
 .tuitt-button, .apply-button {
-    background-color: #c2195b;
-    padding: 4px;
-    border-radius: 5px;
-    border: none;
+    color: white;
     font-weight: bold;
-    color: white;
+    background-color: #c2195b;
+    border-radius: 25px;
+    font-size: 1rem;
+    padding: 1rem;
+    border: none;
 }
 
-.front-bg {
-    background-color:black;
-}
-.container {
-    background-image: url(https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg);
-    width:100%;
-    background-position: center center;
-    background-size: 100%;
-    opacity: 50%;
-    height: 40vh;
-    object-position: right;
-}
-
-
-.title {
-    font-family: 'Zilla Slab';
-    text-align: right;
-    width: 32vw;
-    font-size: 2em;
-    color: white;
-}
-
-.subtitle {
-    text-align: right;
-    width: 25vw;
-    font-size: 0.8em;
-    font-weight: lighter;
-    color: white;
+.bg-image {
+    background-image: url(https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg)
 }

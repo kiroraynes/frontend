@@ -1,0 +1,103 @@
+/*CSS reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Bootstrap Font*/
+body{
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.text-center{
+	text-align:center;
+}
+
+.bg-primary{
+	background-color: dodgerblue;
+}
+
+.bg-secondary{
+	background-color: grey;
+}
+
+.text-light{
+	color: white;
+}
+
+.border{
+	border: 1px solid gray;
+}
+
+.border-dark{
+	border-color: black;
+}
+
+.pt-3{
+	padding-top: 1rem;
+}
+
+.pb-3{
+	padding-bottom: 1rem;
+}
+
+/*Bootstrap Grid System*/
+.row{
+/* The flex value of the display property will change the element into a block level flex container	*/
+/*This will make all the child elements become flexible that allows them to occupy space enough for the content of an element and at the same time will have elements appear beside each other*/
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.col-1{
+	width: calc(100%/12);
+}
+
+.col-2{
+	width: calc((100%/12)*2);
+}
+
+.col-3{
+	width: calc((100%/12)*3);
+}
+
+.col-4{
+	width: calc((100%/12)*4);
+}
+
+.col-5{
+	width: calc((100%/12)*5);
+}
+
+.col-6{
+	width: calc((100%/12)*6);
+}
+
+.col-7{
+	width: calc((100%/12)*7);
+}
+.col-8{
+	width: calc((100%/12)*8);
+}
+
+.col-9{
+	width: calc((100%/12)*9);
+}
+
+.col-10{
+	width: calc((100%/12)*10);
+}
+
+.col-11{
+	width: calc((100%/12)*11);
+}
+.col-12{
+	width: calc((100%/12)*12);
+}
+
+@media (min-width: 768px){
+	body{
+		background-color: green;
+	}
+}
