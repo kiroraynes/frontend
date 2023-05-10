@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: b;
+}
+
+/* bootstrap */
+
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.h-25 {
+    height:25%;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.bg-secondary {
+    background-color: gray;
+}
+
+.bg-success {
+    background-color: green;
+}
+
+.bg-warning {
+    background-color: yellow;
+}
+
+.bg-danger {
+    background-color: red;
+}
