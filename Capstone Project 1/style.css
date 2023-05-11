@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Comme', sans-serif;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.mt-6 {
+    margin-top: 10rem;
+}
+
+.mx-6 {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.mx-7 {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.px-7 {
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
