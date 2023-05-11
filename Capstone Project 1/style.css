@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 html {
-    font-family: 'Comme', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -25,12 +25,19 @@ html {
     margin-right: 10rem;
 }
 
-.mx-7 {
-    margin-left: 20rem;
-    margin-right: 20rem;
+.menu {
+    background: linear-gradient(to right, rgba(153, 38, 240, 0.95), rgba(209, 34, 227, 0.95))
 }
 
-.px-7 {
-    margin-left: 20rem;
-    margin-right: 20rem;
+#dp {
+    max-height: auto;
+    max-width:50%;
+}
+
+.dp-shape {
+    background-color: rgb(217, 219, 218,0.3);
+}
+
+.curved {
+    
 }
