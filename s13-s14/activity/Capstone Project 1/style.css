@@ -5,6 +5,7 @@
 }
 html {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -31,13 +32,19 @@ html {
 
 #dp {
     max-height: auto;
-    max-width:50%;
+    max-width: 75%;
 }
 
 .dp-shape {
     background-color: rgb(217, 219, 218,0.3);
 }
 
-.curved {
-    
+/* svg {
+    display:block;
+} */
+
+.shapes {
+    background-image: url(./images/Frame\ 2.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
